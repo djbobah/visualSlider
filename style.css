@@ -1,8 +1,8 @@
 .container {
-  margin: 300px auto;
+  margin: 50px auto;
   padding: 20px;
   width: 600px;
-  height: 500px;
+  height: 150px;
   /* border-style: dotted; */
   font-size: 20px;
   font-weight: bold;
@@ -25,7 +25,7 @@
 .topCaption {
   /* border-style: solid; */
   position: relative;
-  margin: 10px 0;
+  margin: 15px 0;
   border-radius: 3px;
 }
 .topCaption div {
@@ -51,7 +51,22 @@
 .middleCaption {
   position: absolute;
   top: 0px;
-  left: 20%;
+  left: 39%;
+  /* background-color: rgb(240, 240, 240); */
+}
+.middleCaption1 {
+  position: absolute;
+  top: 0px;
+  left: 57.4%;
+  background-color: blue;
+  color: white;
+}
+.middleCaption2 {
+  position: absolute;
+  top: 0px;
+  left: 76%;
+  background-color: blue;
+  color: white;
   /* background-color: rgb(240, 240, 240); */
 }
 .circle {
@@ -67,12 +82,47 @@
   border-radius: 50px;
   position: absolute;
   top: -14px;
-  left: 20%;
-  /* z-index: -1; */
+  left: 37.1%;
+  z-index: 1;
+  box-shadow: 4px 4px 5px 0px rgba(34, 60, 80, 0.4);
+}
+.circle1 {
+  background-color: rgb(230, 230, 230);
+  display: block;
+  /* width: 100%; */
+  /* align-items: center; */
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  position: absolute;
+  top: -14px;
+  left: 56.1%;
+  z-index: 1;
+  box-shadow: 4px 4px 5px 0px rgba(34, 60, 80, 0.4);
+}
+.circle2 {
+  background-color: rgb(230, 230, 230);
+  display: block;
+  /* width: 100%; */
+  /* align-items: center; */
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  position: absolute;
+  top: -14px;
+  left: 74.8%;
+  z-index: 1;
+  box-shadow: 4px 4px 5px 0px rgba(34, 60, 80, 0.4);
 }
 .fillScale {
   background-color: blue;
-  width: 25%;
+  width: 39%;
   align-items: left;
   border-style: solid;
   border-width: 1px;
@@ -83,3 +133,206 @@
   top: -1px;
   left: -1px;
 }
+.fillScale1 {
+  background-color: blue;
+  width: 20%;
+  align-items: left;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  height: 15px;
+  border-radius: 15px;
+  position: absolute;
+  top: -1px;
+  left: 59%;
+}
+.bottomCaption {
+  margin-top: 25px;
+  /* margin-top: 30px; */
+  /* display: inline-block; */
+  position: relative;
+}
+.bottomCaption div {
+  position: absolute;
+}
+.scale div {
+  position: absolute;
+  /* width: 1px; */
+
+  /* border-color: gray; */
+  border-width: 1px;
+  border-style: solid;
+  top: 16px;
+}
+.line1 {
+  left: 3.125%;
+  height: 15px;
+  border-color: blue;
+}
+.line2 {
+  left: 6.25%;
+  height: 7px;
+}
+.line3 {
+  left: 9.375%;
+  height: 7px;
+}
+.line4 {
+  left: 12.5%;
+  border-color: blue;
+  height: 15px;
+}
+.line5 {
+  left: 15.625%;
+  height: 7px;
+}
+.line6 {
+  left: 18.75%;
+  height: 7px;
+}
+.line7 {
+  left: 21.875%;
+  border-color: blue;
+  height: 15px;
+}
+.line8 {
+  left: 25%;
+  height: 7px;
+}
+.line9 {
+  left: 28.125%;
+  height: 7px;
+}
+.line10 {
+  left: 31.25%;
+  border-color: blue;
+  height: 15px;
+}
+.line11 {
+  left: 34.375%;
+  height: 7px;
+}
+.line12 {
+  left: 37.5%;
+  height: 7px;
+}
+.line13 {
+  left: 40.625%;
+  border-color: blue;
+  height: 15px;
+}
+.line14 {
+  left: 43.75%;
+  height: 7px;
+}
+.line15 {
+  left: 46.875%;
+  height: 7px;
+}
+.line16 {
+  left: 50%;
+  border-color: blue;
+  height: 15px;
+}
+.line17 {
+  left: 53.175%;
+  height: 7px;
+}
+.line18 {
+  left: 56.25%;
+  height: 7px;
+}
+.line19 {
+  left: 59.375%;
+  border-color: blue;
+  height: 15px;
+}
+.line20 {
+  left: 62.5%;
+  height: 7px;
+}
+.line21 {
+  left: 65.625%;
+  height: 7px;
+}
+.line22 {
+  left: 68.75%;
+  border-color: blue;
+  height: 15px;
+}
+.line23 {
+  left: 71.875%;
+  height: 7px;
+}
+.line24 {
+  left: 75%;
+  height: 7px;
+}
+.line25 {
+  left: 78.125%;
+  border-color: blue;
+  height: 15px;
+}
+.line26 {
+  left: 81.25%;
+  height: 7px;
+}
+.line27 {
+  left: 84.375%;
+  height: 7px;
+}
+.line28 {
+  left: 87.5%;
+  border-color: blue;
+  height: 15px;
+}
+.line29 {
+  left: 90.625%;
+  height: 7px;
+}
+.line30 {
+  left: 93.75%;
+  height: 7px;
+}
+.line31 {
+  left: 96.875%;
+  border-color: blue;
+  height: 15px;
+}
+.cap1 {
+  left: 2.5%;
+}
+.cap2 {
+  left: 11.8%;
+}
+.cap3 {
+  left: 20.4%;
+}
+.cap4 {
+  left: 29.8%;
+}
+.cap5 {
+  left: 39%;
+}
+.cap6 {
+  left: 48.6%;
+}
+.cap7 {
+  left: 57.8%;
+}
+.cap8 {
+  left: 67.2%;
+}
+.cap9 {
+  left: 76.3%;
+}
+.cap10 {
+  left: 85.8%;
+}
+.cap11 {
+  left: 95%;
+}
+/* .bottomCaption > div {
+  margin: 30px 0 0 10px;
+  display: inline-block;
+} */
